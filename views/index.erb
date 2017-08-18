@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<title>FLAVORFUL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/gif" href="https://image.freepik.com/free-icon/restaurant-cutlery-circular-symbol-of-a-spoon-and-a-fork-in-a-circle_318-61086.jpg" />
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sansita One">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+  
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="submission.erb" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RECIPES</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="/#creators" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CREATORS</a>
+    <!--<div class="w3-dropdown-hover w3-hide-small">-->
+      <!--<button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     -->
+      <!--<div class="w3-dropdown-content w3-bar-block w3-card-4">-->
+      <!--  <a href="#" class="w3-bar-item w3-button">Merchandise</a>-->
+      <!--  <a href="#" class="w3-bar-item w3-button">Extras</a>-->
+      <!--  <a href="#" class="w3-bar-item w3-button">Media</a>-->
+      <!--</div>-->
+    <!--</div>-->
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+  <a href="submission.erb" class="w3-bar-item w3-button w3-padding-large">RECIPES</a>
+  <a href="/#about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+  <a href="/#creators" class="w3-bar-item w3-button w3-padding-large">CREATORS</a>
+</div>
+
+<!-- Header -->
+<!--<header class="w3-container w3-red w3-center" style= "padding:128px 16px">-->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://static1.squarespace.com/static/5685a06669492ea07bb9b05d/t/5702d1922b8ddeaf55815b1f/1459802521539/Angel+Food-+High+Res-6766.jpg?format=1500w" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <br><br><h1 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-jumbo"><font face="Sansita One">FLAVORFUL</font></h1></span></h1>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://iso.500px.com/wp-content/uploads/2016/07/stock-photo-157432243-1500x1000.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small w3-#7DE8D5">
+      <br><br><h1 class="w3-teal w3-jumbo w3-wide"><font face="Sansita One">FLAVORFUL</font></h1>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://iso.500px.com/wp-content/uploads/2015/12/food_cover-1500x1000.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <br><br><h1 class="w3-red w3-jumbo w3-wide"><font face="Sansita One">FLAVORFUL</font></h1>
+    </div>
+  </div>
+
+<div class="button w3-center">
+  <h4>
+  <a href="submission.erb">
+       <h1 style="display:inline"; float:"left"; align="center"> 
+    <button class="w3-button w3-red w3-padding-xxlarge w3-xxlarge w3-margin-top w3-wide"><font face="Lato">GET STARTED</font></button>
+  </a>
+  </h4>
+  </div>
+</header>
+
+<!-- Page content -->
+<!--<div class="w3-content" style="max-width:2000px;margin-top:46px">-->
+  <!-- Automatic Slideshow Images -->
+<!--  <div class="mySlides w3-display-container w3-center">-->
+    <!--<img src="http://trichilofoods.com/site/wp-content/uploads/2015/06/veggies.jpg" style="width:100%">-->
+<!--    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">-->
+<!--      <h3>Los Angeles</h3>-->
+<!--      <p><b>We had the best time playing at Venice Beach!</b></p>   -->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="mySlides w3-display-container w3-center">-->
+<!--    <img src="/w3images/ny.jpg" style="width:100%">-->
+<!--    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">-->
+<!--      <h3>New York</h3>-->
+<!--      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    -->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="mySlides w3-display-container w3-center">-->
+<!--    <img src="/w3images/chicago.jpg" style="width:100%">-->
+<!--    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">-->
+<!--      <h3>Chicago</h3>-->
+<!--      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    -->
+<!--    </div>-->
+<!--  </div>-->
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">ARE YOU HUNGRY,<br>BUT DON'T KNOW WHAT TO EAT?</h2>
+    <h5 class="w3-opacity"><i>You've come to the right place</i></h5><br>
+    <pclass="w3-justify text-align=center"><h4>QUICK & EASY recipes for the hungry beasts within us. <br>Feed those cravings in an instant! Just tell us the meal <br>you are eating and what flavor those tastebuds are feeling.</p></h4>
+    <br><br>
+    <hr>
+    
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:650px">
+    <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT</span></h2>
+    <p><h4>Hi! Welcome to our website! This web app was created by three Kode With Klossy San Francisco scholars who learned Ruby, HTML/CSS, and Sinatra in just 8 days! We were tasked with creating a app in two days as a final project for the program, and thus Flavorful was born. The idea behind this app came from three hungry girls who wanted quick and easy recipes that would suit our cravings, and we hope that Flavorful and the recipes included will do the same for you!</h4></p>
+    
+    <br><br><br>
+    <hr>
+    
+</div>
+  </div>
+  
+  <div class="w3-container" id="creators">
+  <div class="w3-content" style="max-width:700px">
+    
+    <h2 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CREATORS</span></h2>
+    <img src="https://preview.ibb.co/jgWAbk/Image_uploaded_from_i_OS.jpg"><br><br>
+    <div class="w3-row-padding w3-grayscale">
+        <img src="images/us.jpg" style="width:100%">
+    <div class="w3-third l3 m6 w3-margin-bottom-center">
+      <h3><font face="Lato">Lexie</font></h3>
+      <p class="w3-opacity">Student, 16</p>
+      <p>Working with these girls was a dream -- our communication, collaboration, and teamwork was unlike any group project I have ever experienced. This project had its ups and downs, but we supported each other the whole way through. I am so proud of the webapp we produced (in just two days!) and could not imagine a better pair of girls to work with!</p>
+    </div>
+    <div class="w3-third l3 m6 w3-margin-bottom-center">
+      <h3><font face="Lato">Priyanshi</font></h3>
+      <p class="w3-opacity">Student, 15</p>
+      <p>This project was truly a roller-coaster from start to finish. Half-way through our project we decided to scrap all the code we had and start again. Our small wins and team spirit kept us going and we finally figured it out! Learning these languages and being able to apply them with Lexie and Alicia was such a rewarding experience!</p>
+    </div>
+     <div class="w3-third l3 m6 w3-margin-bottom-center">
+      <h3><font face="Lato">Alicia</font></h3>
+      <p class="w3-opacity">Student, 15</p>
+      <p>This project was a mix of everything; fun, stress, problem-solving, panic, and the joy of accomplishing little goals that led us up to our final product, which you are viewing right now. We are so incredibly proud and it was like watching and raising our own baby that we all co-parent(ed). I mean, I couldn't have asked for better co-parents other than Priyanshi and Lexie.</p>
+
+    </div>
+  
+<!--<form method=POST>    -->
+<!--       <input type="radio" name="meal" value="breakfast"> Breakfast <br>-->
+<!--  <input type="radio" name="flavor" value="spicy"> Spicy <br>-->
+<!--   <input type="submit" name="submit">-->
+<!--</form>-->
+  
+    <!--<div class="w3-row w3-padding-32">-->
+    <!--  <div class="w3-third">-->
+    <!--    <p>Name</p>-->
+    <!--    <img src="https://www.friendlys.com/wp-content/themes/netplus/img/production/detail/menu/breakfast_breakfast-classics_big-two-do-breakfast.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">-->
+    <!--  </div>-->
+    <!--  <div class="w3-third">-->
+    <!--    <p>Name</p>-->
+    <!--    <a href="lunch.erb"-->
+    <!--    <img src="https://www.fitnessmagazine.com/sites/fitnessmagazine.com/files/styles/facebook_og_image/public/1200-dietitian-lunch-wide-sandwich.jpg?itok=iX50lyTD" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">-->
+    <!--    </a>-->
+    <!--  </div>-->
+    <!--  <div class="w3-third">-->
+    <!--    <p>Name</p>-->
+    <!--    <form method=POST>-->
+    <!--    <input id="image" type="image" value = "sumbit" src="http://spartanfitness360.com/wp-content/uploads/2016/10/How-to-Snack-Blog-Post-Pic.jpg" name = "snack" class="w3-round" alt="Random Name" style="width:20% >-->
+        
+        <!--</form>-->
+      <!--</div>-->
+      <!--<div class="w3-third">-->
+      <!--  <p>Name</p>-->
+      <!--  <a href="snack.erb">-->
+  <!--      <img src="http://spartanfitness360.com/wp-content/uploads/2016/10/How-to-Snack-Blog-Post-Pic.jpg" class="w3-round" alt="Random Name" style="width:60%">-->
+  <!--      </a>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</div>-->
+
+  <!-- The Tour Section -->
+<!--  <div class="w3-black" id="tour">-->
+<!--    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">-->
+<!--      <h2 class="w3-wide w3-center">TOUR DATES</h2>-->
+<!--      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>-->
+
+<!--      <ul class="w3-ul w3-border w3-white w3-text-grey">-->
+<!--        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>-->
+<!--        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>-->
+<!--        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>-->
+<!--      </ul>-->
+
+<!--      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">-->
+<!--        <div class="w3-third w3-margin-bottom">-->
+<!--          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">-->
+<!--          <div class="w3-container w3-white">-->
+<!--            <p><b>New York</b></p>-->
+<!--            <p class="w3-opacity">Fri 27 Nov 2016</p>-->
+<!--            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>-->
+<!--            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="w3-third w3-margin-bottom">-->
+<!--          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">-->
+<!--          <div class="w3-container w3-white">-->
+<!--            <p><b>Paris</b></p>-->
+<!--            <p class="w3-opacity">Sat 28 Nov 2016</p>-->
+<!--            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>-->
+<!--            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="w3-third w3-margin-bottom">-->
+<!--          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">-->
+<!--          <div class="w3-container w3-white">-->
+<!--            <p><b>San Francisco</b></p>-->
+<!--            <p class="w3-opacity">Sun 29 Nov 2016</p>-->
+<!--            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>-->
+<!--            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <!-- Ticket Modal -->
+<!--  <div id="ticketModal" class="w3-modal">-->
+<!--    <div class="w3-modal-content w3-animate-top w3-card-4">-->
+<!--      <header class="w3-container w3-teal w3-center w3-padding-32"> -->
+<!--        <span onclick="document.getElementById('ticketModal').style.display='none'" -->
+<!--       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>-->
+<!--        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>-->
+<!--      </header>-->
+<!--      <div class="w3-container">-->
+<!--        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>-->
+<!--        <input class="w3-input w3-border" type="text" placeholder="How many?">-->
+<!--        <p><label><i class="fa fa-user"></i> Send To</label></p>-->
+<!--        <input class="w3-input w3-border" type="text" placeholder="Enter email">-->
+<!--        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>-->
+<!--        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>-->
+<!--        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <!-- The Contact Section -->
+<!--  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">-->
+<!--    <h2 class="w3-wide w3-center">CONTACT</h2>-->
+<!--    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>-->
+<!--    <div class="w3-row w3-padding-32">-->
+<!--      <div class="w3-col m6 w3-large w3-margin-bottom">-->
+<!--        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>-->
+<!--        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>-->
+<!--        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>-->
+<!--      </div>-->
+<!--      <div class="w3-col m6">-->
+<!--        <form action="/action_page.php" target="_blank">-->
+<!--          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">-->
+<!--            <div class="w3-half">-->
+<!--              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">-->
+<!--            </div>-->
+<!--            <div class="w3-half">-->
+<!--              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">-->
+<!--          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>-->
+<!--        </form>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+  
+<!-- End Page Content -->
+<!--</div>-->
+<!-- Add Google Maps -->
+<!--<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>-->
+<!--<script>-->
+<!--function myMap() {-->
+<!--  myCenter=new google.maps.LatLng(41.878114, -87.629798);-->
+<!--  var mapOptions= {-->
+<!--    center:myCenter,-->
+<!--    zoom:12, scrollwheel: false, draggable: false,-->
+<!--    mapTypeId:google.maps.MapTypeId.ROADMAP-->
+<!--  };-->
+<!--  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);-->
+
+<!--  var marker = new google.maps.Marker({-->
+<!--    position: myCenter,-->
+<!--  });-->
+<!--  marker.setMap(map);-->
+<!--}-->
+<!--</script>-->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>-->
+<!--
+<!--To use this code on your website, get a free API key from Google.-->
+<!--Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp-->
+<!---->
+
+<!-- Footer -->
+<!--<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">-->
+<!--  <i class="fa fa-facebook-official w3-hover-opacity"></i>-->
+<!--  <i class="fa fa-instagram w3-hover-opacity"></i>-->
+<!--  <i class="fa fa-snapchat w3-hover-opacity"></i>-->
+<!--  <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+<!--  <i class="fa fa-twitter w3-hover-opacity"></i>-->
+<!--  <i class="fa fa-linkedin w3-hover-opacity"></i>-->
+<!--  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+<!--</footer>-->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+          

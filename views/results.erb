@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>FLAVORFUL</title>
+  </head>
+  <body>
+    
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card-2">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="submission.erb" class="w3-bar-item w3-button w3-padding-large">RECIPES</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+    <a href="/#creators" class="w3-bar-item w3-button w3-padding-large">CREATORS</a>
+      <!--<div class="w3-dropdown-hover w3-hide-small">-->
+      <!--  <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     -->
+      <!--  <div class="w3-dropdown-content w3-bar-block w3-card-4">-->
+      <!--    <a href="#" class="w3-bar-item w3-button">Merchandise</a>-->
+      <!--    <a href="#" class="w3-bar-item w3-button">Extras</a>-->
+      <!--    <a href="#" class="w3-bar-item w3-button">Media</a>-->
+      <!--  </div>-->
+      <!--</div>-->
+      <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    </div>
+  </div>
+  
+  
+  <!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+  <a href="submission.erb" class="w3-bar-item w3-button w3-padding-large">RECIPES</a>
+  <a href="/#about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+  <a href="/#creators" class="w3-bar-item w3-button w3-padding-large">CREATORS</a>
+</div>
+  
+  <header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+    <br><br>
+  <h1 class="w3-xxxlarge w3-animate-bottom w3-wide"><font face="Lato">RECIPES CUSTOMIZED FOR YOU</font></h1>
+  </div>
+</header>
+      
+<div class="w3-half-padding w3-center w3-margin-top" style="margin:50px">
+<div class="w3-half">
+  <div class="w3-card-2 w3-container w3-wide" style="min-height:460px "font-family:Lato"">
+   <a href="<%=@link%>"><img src="<%=@image%>" style="width:100%">
+    <h2><%=@title%></h2>
+    <p><%=@description%></p>
+    </a>
+ </div>
+</div>
+
+
+<div class="w3-half-padding w3-center w3-margin-top" style="margin:50px">
+<div class="w3-half">
+  <div class="w3-card-2 w3-container w3-wide" style="min-height:460px "font-family:Lato"">
+   <a href="<%=@link2%>"><img src="<%=@image2%>" style="width:100%">
+    <h2><%=@title2%></h2>
+    <p><%=@description2%></p>
+    </a>
+ </div>
+</div>
+ 
+<br><br><br>
+
+<div class="footer w3-wide" style="font-family:Lato"> 
+<p>Disclaimer: We do not own the recipes and photos used on this site.</p>
+ </div>
+ </body>
+ 
+</html>
